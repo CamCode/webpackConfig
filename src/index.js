@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import './style.css';
-import './components/buttons/index.js'
-import './components/slider/index.js'
+import button from './components/buttons/index.js'
+import slide from './components/slider/index.js'
 
 function component() {
     const element = document.createElement('div');
@@ -9,5 +9,5 @@ function component() {
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
     return element;
 }
-
+console.log('main index');
 document.body.appendChild(component());
