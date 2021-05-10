@@ -29,7 +29,7 @@
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "webpack-node-externals": "^1.7.2"
   }
 }
